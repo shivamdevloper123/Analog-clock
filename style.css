@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(240, 244, 208);
+    background-color: rgb(249, 249, 246);
 }
 
 #container {
@@ -14,34 +14,34 @@ body{
 #minute,
 #second {
   position: absolute;
-  border-radius: 10%;
-  border:1px solid black;
-  /* background-color: black; */
+  border-radius: 50%;
+  /* border:1px solid black; */
+  background-color: black;
   transform-origin: bottom;
 }
 
 #hour {
-  width: 1.8%;
+  width: 1.4%;
   height: 25%;
   top: 25%;
   left: 48.85%;
   opacity: 0.8;
-
+background-color: green;
 }
 #minute {
-  width: 1.6%;
+  width: 1%;
   height: 30%;
   top: 19%;
   left: 48.9%;
   opacity: 0.8;
-
+background-color: blue;
 
 }
 #second {
-  width: 1%;
+  width: 0.8%;
   height: 40%;
   top: 9%;
   left: 49.25%;
   opacity: 0.8;
-
+background-color:rgb(195, 0, 0) ;
 }
